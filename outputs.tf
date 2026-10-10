@@ -5,7 +5,7 @@ output "instance_arn" {
   value = aws_instance.ubuntu.arn
 }
 
- output "instance_ami" {
-   description = "AMI used to create the EC2 instance."
-   value       = aws_instance.app_server.ami
+output "instance_ami" {
+  description = "AMI used to create the EC2 instance."
+  value       = aws_instance.ubuntu.ami
 }
